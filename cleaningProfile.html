@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="cleaningProfile.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-container">
+            <img src="./cleaningpic.png">
+        </div>
+        <div class="form-container">
+            <h1>Cleaning Profile</h1>
+            <form id="profileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter Present Address" required>
+
+
+                <label for="sp">Recurring :</label>
+                <select id="sp" name="scheduling Preference">
+                    <option value="Select">Select</option>
+                    <option value="Once">Once</option>
+                    <option value="Dialy">Daily</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                </select>
+
+
+                <label for="time">Date & Time:</label>
+                <input type="datetime-local" id="time" name="time" placeholder="Enter Date and Time">
+
+
+                <label for="house-type">House Type:</label>
+                <select id="house-type" name="house-type">
+                    <option value="1BHK">1BHK</option>
+                    <option value="2BHK">2BHK</option>
+                    <option value="3BHK">3BHK</option>
+                    <option value="4BHK">4BHK</option>
+                    <option value="VILLA">Villa</option>
+                </select>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
